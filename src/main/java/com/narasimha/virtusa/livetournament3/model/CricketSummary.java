@@ -19,8 +19,8 @@ public class CricketSummary {
 	private String _id;
 	
 	@Field
-	private JSONObject jsonObject;
-	
+	private JSONObject summary;
+
 	public String get_id() {
 		return _id;
 	}
@@ -28,12 +28,12 @@ public class CricketSummary {
 	public void set_id(String _id) {
 		this._id = _id;
 	}
-	
-	public JSONObject getJsonObject() {
-		return jsonObject;
+
+	public JSONObject getSummary() {
+		return summary;
 	}
 
-	public void setJsonObject(JSONObject jsonObject) {
-		this.jsonObject = jsonObject;
+	public void setSummary(JSONObject summary) {
+		this.summary = summary;
 	}
 }
